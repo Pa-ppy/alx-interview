@@ -15,11 +15,7 @@ line_count = 0
 
 # Compile regex pattern for line validation
 log_pattern = re.compile(
-    r'^(\d+\.\d+\.\d+\.\d+)'
-    r' - \[[^\]]+\]'
-    r' "GET /projects/260 HTTP/1.1"'
-    r' (\d{3})'
-    r' (\d+)$'
+    r'^(\d+\.\d+\.\d+\.\d+) - \[[^\]]+\] "GET /projects/260 HTTP/1.1" (\d{3}) (\d+)$'
 )
 
 
